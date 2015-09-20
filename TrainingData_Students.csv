@@ -1,4 +1,3 @@
-AttPercent	SuspensionCount 	IsMoble	IsMale	IsWhite	IsBlack	IsAsian	IsOtherRace	IsELL	IsUrbanRsd	HighNeeds	IsFreeLunch	IsReducedLunch	IsSpecialEd	IsFirstLangEng	IsMcasElaP	IsMcasElaNI	IsMcasElaW	IsMcasElaP	IsMcasElaNI	IsMcasElaW	LogCount	M1CourseCount(<B)	Q1CourseCount(<B)	Q2CourseCount(<B)	Q3CourseCount(<B)	Q4CourseCount(<B)	Y1Fail
 0.892523364	0	1	1	0	1	0	0	0	1	1	1	0	0	1	0	1	0	0	1	0	1	0	1	1	3	1	1
 0.827102804	0	1	1	0	0	0	1	0	1	0	0	0	0	1	0	1	0	1	0	0	3	0	1	0	0	0	0
 0.981308411	0	1	0	0	0	0	1	0	0	0	0	0	0	1	1	0	0	0	1	0	0	0	0	0	0	0	0
