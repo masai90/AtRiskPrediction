@@ -222,7 +222,7 @@ def feature_fit(X, fname_train, fname_test):
 # Main
 # ----------------------------------------------------------------------------------------------------------------------
 def main():
-    X_train, y_train, fea_name = load_data('/Users/masai/Desktop/Dropbox/Books/Coding/Python/Code/TrainingData_Students.csv')
+    X_train, y_train, fea_name = load_data('TrainingData_Students.csv')
     print('Make your choice: 0 for no, 1 for yes')
     feature_selection = int(input('     Feature Selection? '))
     parameter_search = int(input('     Parameter Selection? '))
@@ -244,7 +244,7 @@ def main():
         clf = train_classification(X_train, y_train)
 
     print('Performing prediction for testing data')
-    X_test, y_test, f_name = load_data('/Users/masai/Desktop/Dropbox/Books/Coding/Python/Code/TestingData_Students.csv')
+    X_test, y_test, f_name = load_data('TestingData_Students.csv')
     X_test = feature_fit(X_test, fea_name, f_name)
     print(X_test.shape)
     y_test_pred = clf.predict(X_test)
